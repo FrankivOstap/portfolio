@@ -1,0 +1,40 @@
+.container {
+  height: 600px;
+  background: url("../../assets/images/about.png");
+  padding: 19vh 100px 5vh;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  width: 740px;
+  margin-top: 24px;
+  line-height: 140%;
+}
+
+.card {
+  width: 202px;
+  height: 100px;
+  padding: 16px 24px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+
+.card > h2 {
+  font-size: 2.5rem;
+  color: #4218b9;
+}
+.card > h4 {
+  font-size: 18px;
+  color: #4218b9;
+}

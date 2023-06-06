@@ -1,0 +1,22 @@
+.container {
+  height: 128px;
+  background: #050112;
+  padding: 40px 100px;
+  position: sticky;
+  color: #fff;
+  font-size: 14px;
+  line-height: 130%;
+  display: flex;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+
+.nav >span{
+  margin-bottom: 12px;
+  font-weight: 400;
+  line-height: 140%;
+}

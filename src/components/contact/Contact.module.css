@@ -1,0 +1,91 @@
+.container {
+  height: 800px;
+  position: relative;
+  padding-top: 120px;
+  padding-left: 100px;
+  position: relative;
+  margin-top: 150px;
+}
+
+.title {
+  color: #4218b9;
+  margin-bottom: 56px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.input {
+  width: 470px;
+  height: 24px;
+  padding: 16px 24px;
+  border: 1px solid #9693a0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  max-width: 520px;
+  margin-bottom: 17px;
+  border-radius: 12px;
+}
+
+.info {
+  background: rgba(66, 24, 185, 0.05);
+  padding: 24px 32px;
+  color: #050112;
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  width: 680px;
+  height: 234px;
+}
+
+.infoTitle {
+  color: #4218b9;
+  margin-bottom: 12px;
+  line-height: 120%;
+  font-size: 1.5rem;
+}
+
+.schedule {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.schedule > span {
+  margin-bottom: 8px;
+}
+
+.contact {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 31px;
+  width: 180px;
+  height: 60px;
+  padding: 19px;
+  background: #050112;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

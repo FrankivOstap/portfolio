@@ -1,0 +1,44 @@
+.container {
+  height: 800px;
+  background-color: #fff;
+  position: relative;
+  padding-left: 100px;
+}
+
+.title {
+  color: #4218b9;
+  margin-bottom: 24px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  font-size: 3rem;
+}
+
+.description {
+  max-width: 760px;
+  margin-bottom: 56px;
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 18px;
+}
+
+.card {
+  background: rgba(66, 24, 185, 0.05);
+  width: 600px;
+  padding: 24px;
+  border-radius: 12px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.cardTitle {
+  color: #050112;
+  line-height: 120%;
+  font-size: 1.5rem;
+}
+
+.cardDescription {
+  margin-top: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 18px;
+}

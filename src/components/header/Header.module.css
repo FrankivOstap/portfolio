@@ -1,0 +1,101 @@
+.container {
+  height: 800px;
+  background-color: #050112;
+  position: relative;
+}
+
+.heroImg {
+  position: absolute;
+  width: 98%;
+  z-index: 1;
+}
+.title {
+  position: fixed;
+  color: white;
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.title > span{
+  font-weight: 900;
+  color: rgb(244, 116, 138);
+}
+
+.headline {
+  font-size: 8.125rem;
+  color: white;
+  position: relative;
+  z-index: 2;
+  padding-left: 100px;
+  width: 700px;
+  padding-top: 120px;
+}
+
+.text {
+  color: white;
+  width: 550px;
+  font-size: 1.25rem;
+  line-height: 135%;
+}
+
+.text >span{
+  color: #9378e2;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+  width: 220px;
+  height: 58px;
+  padding: 19px;
+  position: relative;
+  z-index: 2;
+  color: white;
+  border-radius: 40px;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+.info {
+  color: white;
+  font-size: 1.25rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slidingLine {
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  background: rgba(42, 23, 98, 0.4);
+}
+
+.wordsContainer {
+  display: flex;
+  animation: slide 10s linear infinite;
+  animation-direction: normal; /* Reverse the animation direction */
+}
+
+.word {
+  padding: 0 200px 0 0;
+  white-space: nowrap;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%); /* Start from the right side */
+  }
+  100% {
+    transform: translateX(0); /* Slide to the left */
+  }
+}

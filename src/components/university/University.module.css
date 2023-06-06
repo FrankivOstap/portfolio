@@ -1,0 +1,91 @@
+.container {
+  height: 800px;
+  margin-top: 150px;
+  background-color: #4218b9;
+  position: relative;
+  padding-top: 88px;
+}
+
+.background {
+  color: rgba(255, 255, 255, 0.04);
+  position: absolute;
+  top: 100px;
+  font-size: 16.66em;
+}
+
+.title {
+  color: white;
+  letter-spacing: 0.01em;
+  font-size: 3rem;
+  margin-left: 100px;
+  margin-bottom: 24px;
+}
+
+.text {
+  margin-left: 100px;
+  width: 640px;
+  font-size: 18px;
+  color: white;
+  line-height: 140%;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 533px;
+  height: 260px;
+  padding: 32px;
+  margin-left: 100px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.cardTitle {
+  line-height: 120%;
+  font-size: 1.5rem;
+}
+
+.cardSubtitle {
+  color: #67607b;
+  margin-top: 4px;
+  line-height: 140%;
+  font-size: 18px;
+}
+
+.cardText {
+  margin-top: 24px;
+}
+
+.cardInfoContainer {
+  margin-top: 24px;
+  display: flex;
+}
+
+.cardInfo {
+  margin-right: 50px;
+}
+
+.cardInfoTitle {
+  color: #4218b9;
+  font-weight: 800;
+}
+
+.cardInfoSubtitle {
+  margin-top: 4px;
+  font-size: 1rem;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.btn {
+  min-width: 140px;
+  background: #050112;
+  color: #fff;
+  padding: 15px 19px;
+  border-radius: 40px;
+  border: none;
+  position: absolute;
+  bottom: 22px;
+  right: 32px;
+  cursor: pointer;
+}
