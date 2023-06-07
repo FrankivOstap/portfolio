@@ -10,6 +10,7 @@ import yuboImg from "../../assets/images/projects/yubo.png";
 type Props = {};
 
 export const Projects: FC<Props> = (props) => {
+  console.log(window.innerWidth > 390);
   
   return (
     <div className={styles.container}>
@@ -19,8 +20,8 @@ export const Projects: FC<Props> = (props) => {
         autoplay={true}
         duration={100}
         autoplaySpeed={3000}
-        slidesToShow={window.innerWidth > 390 ? 3 : 1}
-        shift={ window.innerWidth > 390 ? 50 : 90}
+        slidesToShow={window.innerWidth > 420 ? 3 : 1}
+        shift={ window.innerWidth > 420 ? 50 : 90}
       >
         <div className={styles.card}>
           <img src={bellairImg} alt="fishImg" />

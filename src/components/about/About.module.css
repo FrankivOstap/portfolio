@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 420px) {
   .container {
-    height: 400px;
+    height: 500px;
     background: url("../../assets/images/about.png");
     padding: 40px 20px;
   }
@@ -60,8 +60,8 @@
   }
 
   .card {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     padding: 4px;
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.6);
@@ -73,12 +73,12 @@
   }
 
   .card > h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #4218b9;
     font-weight: 900;
   }
   .card > h4 {
-    font-size: 12px;
+    font-size: 14px;
     color: #4218b9;
     font-weight: 400
   }

@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 420px) {
   .container {
-    height: 500px;
+    height: 700px;
     background-color: #050112;
     position: relative;
   }
@@ -124,7 +124,7 @@
     position: absolute;
     height: 72%;
     width: 177%;
-    top: 100px;
+    top: 155px;
     z-index: 0;
   }
   .title {
@@ -149,7 +149,7 @@
     z-index: 2;
     padding-left: 0;
     width: 200px;
-    padding-top: 50px;
+    padding-top: 100px;
     margin-left: 20px;
   }
 

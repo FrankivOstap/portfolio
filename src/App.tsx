@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div style={{position: 'fixed', bottom: 100, right: 100}}>
+      {/* <div style={{position: 'fixed', bottom: 100, right: 100}}>
         <CircleText>
           <svg width="200" height="200">
             <text>
@@ -47,7 +47,7 @@ function App() {
           </svg>
         </CircleText>
         <span style={{position: 'absolute', top: '50%', left: 100}}>{">"}</span>
-      </div>
+      </div> */}
       <About />
       <Projects />
       <Services />
