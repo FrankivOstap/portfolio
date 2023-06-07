@@ -1,5 +1,5 @@
 .container {
-  height: 800px;
+  height: 700px;
   position: relative;
   padding-top: 100px;
   padding-left: 100px;
@@ -20,7 +20,7 @@
   background: rgba(66, 24, 185, 0.05);
   border-radius: 12px;
   max-width: 300px;
-  height: 300px;
+  height: 400px;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -41,9 +41,52 @@
   text-align: left;
 }
 
-.card > img{
-  width: 80%;
-  aspect-ratio: 1.5;
-  background-color: black;
-  margin-bottom: 50px;
+@media screen and (max-width: 390px) {
+  .container {
+    height: 500px;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .title {
+    color: #4218b9;
+    margin-bottom: 56px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  
+  .card {
+    padding: 10px;
+    background: rgba(66, 24, 185, 0.05);
+    border-radius: 12px;
+    max-width: 350px;
+    height: 350px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .card >img{
+    width: 90%;
+    aspect-ratio: 1;
+  }
+  
+  .cardTitle {
+    color: #050112;
+    line-height: 120%;
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+  
+  .cardText {
+    margin-top: 8px;
+    font-size: 0.7rem;
+    line-height: 130%;
+    width: 250px;
+    text-align: left;
+  }
 }

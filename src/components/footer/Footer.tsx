@@ -6,16 +6,14 @@ type Props = {};
 export const Footer: FC<Props> = (props) => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Kostyantyn Dyachenko Developer</h2>
+      <h2 className={styles.title}><span>Dev</span> Kostyantyn Dyachenko</h2>
       <div className={styles.nav}>
-        <span>About Us</span>
-        <span>University</span>
-        <span>Our Services</span>
+        <span>About Me</span>
+        <span>My Services</span>
       </div>
       <div className={styles.nav}>
-        <span>Our Approach</span>
+        <span>My Approach</span>
         <span>Recent Project</span>
-        <span>Contact us</span>
       </div>
     </div>
   );
