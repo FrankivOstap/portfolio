@@ -32,11 +32,11 @@
   color: rgb(244, 116, 138);
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   .container {
-    height: 300px;
+    height: 250px;
     background: #050112;
-    padding: 40px 0;
+    padding: 20px 0;
     position: sticky;
     color: #fff;
     font-size: 14px;
@@ -58,13 +58,13 @@
     font-weight: 400;
     line-height: 140%;
     text-align: center;
-    font-size: 20px;
+    font-size: 12px;
   }
   
   .title {
     color: white;
     padding-top: 0;
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .title > span {

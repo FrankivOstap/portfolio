@@ -3,11 +3,15 @@
   background-color: #050112;
   position: relative;
 }
-
+.infoContainer {
+  display: flex;
+  align-items: flex-end;
+}
 .heroImg {
   position: absolute;
   width: 98%;
   z-index: 1;
+  top: -50px;
 }
 .title {
   position: fixed;
@@ -42,7 +46,13 @@
 .text > span {
   color: #9378e2;
 }
-
+.contactContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 56px;
+  padding-right: 100px,
+}
 .btn {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #fff;
@@ -100,21 +110,22 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   .container {
     height: 500px;
     background-color: #050112;
     position: relative;
-    
   }
-.container > div{
-  display: flex;
+  .container > div {
+    display: flex;
     flex-direction: column;
-}
+  }
   .heroImg {
     position: absolute;
-    width: 100%;
-    z-index: 1;
+    height: 72%;
+    width: 177%;
+    top: 100px;
+    z-index: 0;
   }
   .title {
     position: static;
@@ -128,30 +139,39 @@
     font-weight: 900;
     color: rgb(244, 116, 138);
   }
-
+  .infoContainer {
+    align-items: flex-start;
+  }
   .headline {
-    font-size:1rem;
+    font-size: 2rem;
     color: white;
     position: relative;
     z-index: 2;
     padding-left: 0;
-    width: 100px;
+    width: 200px;
     padding-top: 50px;
+    margin-left: 20px;
   }
 
   .text {
     color: white;
-    width: 195px;
+    width: 350px;
     font-size: 0.7rem;
     line-height: 135%;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .text > span {
     color: #9378e2;
   }
-
+  .contactContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
   .btn {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #fff;
@@ -159,14 +179,18 @@
     height: 50px;
     padding: 19px;
     font-size: 14px;
+    margin-left: 0;
+
   }
 
   .info {
     color: white;
-    font-size: 1.25rem;
-    width: 250px;
+    font-size: 0.7rem;
+    width: 150px;
     display: flex;
     flex-direction: column;
+    margin-left: 250px;
+    margin-top: 50px;
   }
 
   .slidingLine {
@@ -177,7 +201,7 @@
     bottom: 0;
     display: flex;
     align-items: center;
-    z-index: 2;
+    z-index: 5;
     background: rgba(42, 23, 98, 0.4);
   }
 
@@ -193,7 +217,7 @@
     white-space: nowrap;
     color: white;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 40px;
   }
 }

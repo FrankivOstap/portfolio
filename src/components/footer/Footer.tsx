@@ -10,11 +10,10 @@ export const Footer: FC<Props> = (props) => {
       <div className={styles.nav}>
         <span>About Me</span>
         <span>My Services</span>
-      </div>
-      <div className={styles.nav}>
         <span>My Approach</span>
         <span>Recent Project</span>
       </div>
+    
     </div>
   );
 };

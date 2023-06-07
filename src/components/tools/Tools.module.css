@@ -1,5 +1,5 @@
 .container {
-  height: 800px;
+  height: 500px;
   margin-top: 150px;
   background-color: #4218b9;
   position: relative;
@@ -61,9 +61,9 @@
   mix-blend-mode: normal;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   .container {
-    height: 1350px;
+    height: 500px;
     margin-top: 100px;
     background-color: #4218b9;
     position: relative;
@@ -84,7 +84,7 @@
     line-height: 120%;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .text {
@@ -92,7 +92,7 @@
     margin-left: 20px;
     font-weight: 400;
     line-height: 140%;
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .icons {
@@ -100,16 +100,16 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   .icons > img {
-    width: 30%;
+    width: 12%;
     margin: 20px 10px;
     mix-blend-mode: luminosity;
   }
   .icons > a {
-    width: 30%;
+    width: 12%;
     margin: 20px 10px;
     border: none;
     padding: 0;

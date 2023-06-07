@@ -22,7 +22,7 @@ export const Header: FC<Props> = (props) => {
     <div className={styles.container}>
       <img className={styles.heroImg} src={heroImg} />
       <h2 className={styles.title}><span>Dev</span> Kostyantyn Dyachenko</h2>
-      <div style={{ display: "flex", alignItems: "flex-end" }}>
+      <div className={styles.infoContainer}>
         <h1 className={styles.headline}>I CREATE SUCCESS</h1>
         <h4 className={styles.text}>
           I am a full stack developer with 6 years of experience specializing <span>in
@@ -30,13 +30,7 @@ export const Header: FC<Props> = (props) => {
         </h4>
       </div>
       <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginTop: "56px",
-          paddingRight: "100px",
-        }}
+        className={styles.contactContainer}
       >
         <button className={styles.btn}>Contact Me</button>
         <div className={styles.info}>

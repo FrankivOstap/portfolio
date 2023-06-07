@@ -32,7 +32,7 @@ export const Tools: FC<Props> = (props) => {
         <img src={figmaIcon} alt="figmaIcon" />
         <img src={rubiIcon} alt="rubiIcon" />
         <a
-          href="https://github.com/FrankivOstap"
+          href="https://github.com/KostiantynDyachenko"
           rel="noreferrer"
           target="_blank"
         >
