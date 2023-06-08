@@ -154,6 +154,7 @@
   }
 
   .text {
+    position: relative;
     color: white;
     width: 350px;
     font-size: 0.7rem;
@@ -184,6 +185,7 @@
   }
 
   .info {
+    position: relative;
     color: white;
     font-size: 0.7rem;
     width: 150px;
@@ -213,7 +215,7 @@
   }
 
   .word {
-    padding: 0 200px 0 0;
+    padding: 0 50px 0 0;
     white-space: nowrap;
     color: white;
     font-weight: 900;

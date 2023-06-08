@@ -1,4 +1,14 @@
 .App{
     overflow-x: hidden;
     overflow-y: hidden;
+    position: relative;
+}
+
+.logo{
+    position: fixed;
+    top: 0;
+    left: 100px;
+    width: 200px;
+    height: 100px;
+    z-index: 100;
 }

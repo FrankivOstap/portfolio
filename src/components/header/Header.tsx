@@ -4,7 +4,7 @@ import heroImg from "../../assets/images/hero.png";
 type Props = {};
 
 export const Header: FC<Props> = (props) => {
-  const words = ['DEVELOPMENT', 'TESTING', 'UX/UI DESIGN']; 
+  const words = ["DEVELOPMENT", "TESTING", "UX/UI DESIGN"];
 
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   useEffect(() => {
@@ -21,17 +21,15 @@ export const Header: FC<Props> = (props) => {
   return (
     <div className={styles.container}>
       <img className={styles.heroImg} src={heroImg} />
-      <h2 className={styles.title}><span>Dev</span> Kostyantyn Dyachenko</h2>
       <div className={styles.infoContainer}>
         <h1 className={styles.headline}>I CREATE SUCCESS</h1>
         <h4 className={styles.text}>
-          I am a full stack developer with 6 years of experience specializing <span>in
-          creative problem-solving</span>, development, testing, and UX/UI design.
+          I am a full stack developer with 6 years of experience specializing{" "}
+          <span>in creative problem-solving</span>, development, testing, and
+          UX/UI design.
         </h4>
       </div>
-      <div
-        className={styles.contactContainer}
-      >
+      <div className={styles.contactContainer}>
         <button className={styles.btn}>Contact Me</button>
         <div className={styles.info}>
           <span style={{ fontSize: "2.5rem" }}>50+</span>
@@ -39,17 +37,14 @@ export const Header: FC<Props> = (props) => {
         </div>
       </div>
       <div className={styles.slidingLine}>
-      <div className={styles.wordsContainer}>
-        {words.map((word, index) => (
-          <span
-            key={index}
-            className={styles.word}
-          >
-            {word}
-          </span>
-        ))}
+        <div className={styles.wordsContainer}>
+          {words.map((word, index) => (
+            <span key={index} className={styles.word}>
+              {word}
+            </span>
+          ))}
+        </div>
       </div>
-    </div>
     </div>
   );
 };

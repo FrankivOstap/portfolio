@@ -9,6 +9,7 @@ import { Projects } from "./components/projects/Projects";
 import { Footer } from "./components/footer/Footer";
 import { Tools } from "./components/tools/Tools";
 import styled, { keyframes } from "styled-components";
+import logo from "./assets/images/logo.svg";
 
 function App() {
   const slideAnimation = keyframes`
@@ -32,6 +33,7 @@ function App() {
 
   return (
     <div className="App">
+      <img className="logo" src={logo} alt="logo" />
       <Header />
       {/* <div style={{position: 'fixed', bottom: 100, right: 100}}>
         <CircleText>
