@@ -34,7 +34,7 @@ export const Services: FC<Props> = (props) => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.youtube.com/watch?v=TaBVpfAkYw4"
+              href="https://youtu.be/hyu9NJZxOR8"
             >
               <FaYoutube color="red" size={40} />
             </a>
@@ -56,7 +56,7 @@ export const Services: FC<Props> = (props) => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.youtube.com/watch?v=gfkAlk25Ynw"
+              href="https://youtu.be/hyu9NJZxOR8"
             >
               <FaYoutube color="red" size={40} />
             </a>
