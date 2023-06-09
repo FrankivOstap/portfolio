@@ -13,7 +13,7 @@ export const Projects: FC<Props> = (props) => {
   console.log(window.innerWidth > 390);
   
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="projects">
       <h2 className={styles.title}>RECENT PROJECTS</h2>
       <Slider
         centerMode={true}

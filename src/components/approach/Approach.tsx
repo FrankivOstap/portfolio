@@ -4,7 +4,7 @@ type Props = {};
 
 export const Approach: FC<Props> = (props) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="approach">
       <h2 className={styles.title}>MY APPROACH</h2>
       <p className={styles.description}>
         I offer end-to-end software development services that encompass

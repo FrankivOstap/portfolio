@@ -12,3 +12,14 @@
     height: 100px;
     z-index: 100;
 }
+
+@media screen and (max-width: 420px){
+    .logo{
+        position: fixed;
+        top: 0;
+        left: 16px;
+        width: 91px;
+        height: 45px;
+        z-index: 100;
+    }
+}

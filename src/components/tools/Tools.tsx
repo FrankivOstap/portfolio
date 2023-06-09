@@ -19,7 +19,7 @@ type Props = {};
 
 export const Tools: FC<Props> = (props) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="tools">
       <h2 className={styles.background}>TOOLS</h2>
       <h3 className={styles.title}>TOOLS</h3>
       <p className={styles.text}>

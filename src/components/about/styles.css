@@ -2,17 +2,10 @@
  * Quick and easy CSS3 rolling-number/slot machine?
  */
 
-
 #counter {
-  height: 1em;
+  height: 27px;
   overflow: hidden;
-}
-
-.digits {
-  float: left;
-  list-style-type: none;
-  font-size: 1em;
-  line-height: 1em;
+  width: 100%;
 }
 
 .digits-first {
@@ -28,10 +21,17 @@
 }
 
 .digits {
-  animation-duration: 2s;
+  float: left;
+  list-style-type: none;
+  font-size: 1.5rem;
+  line-height: 117%;
+  transform: translateZ(0);
+  will-change: transform;
+  animation-duration: 2.5s;
   animation-timing-function: ease;
-  animation-delay: 2.2s;
+  animation-delay: 0.3s;
   animation-fill-mode: forwards;
+  padding-left: 10px;
 }
 
 .luckie {
