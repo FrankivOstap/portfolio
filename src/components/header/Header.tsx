@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { FC } from "react";
 import styles from "./Header.module.css";
 import heroImg from "../../assets/images/hero.png";
 type Props = {};
@@ -6,21 +6,9 @@ type Props = {};
 export const Header: FC<Props> = (props) => {
   const words = ["DEVELOPMENT", "TESTING", "UX/UI DESIGN"];
 
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentWordIndex((prevIndex) =>
-        prevIndex === words.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 2000);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
   return (
     <div className={styles.container}>
-      <img className={styles.heroImg} src={heroImg} />
+      <img className={styles.heroImg} src={heroImg} alt="heroImg" />
       <div className={styles.infoContainer}>
         <h1 className={styles.headline}>I CREATE SUCCESS</h1>
         <h4 className={styles.text}>
@@ -30,7 +18,14 @@ export const Header: FC<Props> = (props) => {
         </h4>
       </div>
       <div className={styles.contactContainer}>
-        <button className={styles.btn}>Contact Me</button>
+        <a
+          rel="noreferrer"
+          href="https://www.upwork.com/freelancers/~01ba5883ceb65e5062"
+          target="_blank"
+          className={styles.btn}
+        >
+          Contact Me
+        </a>
         <div className={styles.info}>
           <span style={{ fontSize: "2.5rem" }}>50+</span>
           <span>Projects completed successfuly</span>

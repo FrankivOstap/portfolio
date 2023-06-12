@@ -54,11 +54,12 @@
   padding-right: 100px,
 }
 .btn {
+  text-decoration: none;
   background: rgba(255, 255, 255, 0.2);
+  text-align: center;
   border: 1px solid #fff;
   width: 220px;
-  height: 58px;
-  padding: 19px;
+  padding: 19px 0;
   position: relative;
   z-index: 2;
   color: white;
@@ -176,8 +177,7 @@
   .btn {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #fff;
-    width: 150px;
-    height: 50px;
+    width: 150px !important;
     padding: 19px;
     font-size: 14px;
     margin-left: 0;
